@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
   key_name   = "terra-automate-key"
-  public_key = file("D:/capstone_project/Capstone2/terraform/terra-key.pub")
+  public_key = file("D:/implementation-project/Capstone2/terraform/terra-key.pub")
 }
 
 resource "aws_default_vpc" "default" {
