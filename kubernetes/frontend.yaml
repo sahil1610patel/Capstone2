@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: sahil161/wanderlust-frontend-beta:v2.9
+          image: sahil161/wanderlust-frontend-beta:v3.0
           ports:
             - containerPort: 5173
 ---
